@@ -99,7 +99,7 @@ this\.fetch\(this\.url\("([^"]+)"\)
 
 # One Line Command:
 ```
-▶ echo 'target.com' | waybackurls | grep "\.js" > js_files.txt; go run main.go -l js_files.txt
+▶ echo 'target.com' | waybackurls | grep "\.js" > js_files.txt; endext -l js_files.txt
 ```
 
 // You can use Gau, HaKrawler, Katana, etc...
