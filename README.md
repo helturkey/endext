@@ -10,11 +10,14 @@ That's why i made this tool .. I give it the JS files urls .. It graps all the p
 Just need to install go, run:
 
 ```
-▶ brew install go
-▶ git clone https://github.com/SirBugs/endext.git
+brew install go
+go install github.com/helturkey/endext@main
 ```
 
-or download from https://go.dev/dl/
+macos
+```
+sudo cp ./go/bin/endext /usr/local/bin/
+```
 
 Notice that you have to download the `regex.tmp` file and put into it your custom regex depending on the JS File you facing!
 
